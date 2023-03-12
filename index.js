@@ -15,7 +15,7 @@ const handleRating = value =>{
 function updateStars() {
   stars.innerHTML = '';
   for (let i = 1; i <= rating; i++) {
-    stars.innerHTML += '<img src="img\\icon-star.svg" alt="Star">';
+    stars.innerHTML += '<img src="img\\icon-star.svg" style="padding:10px; background-color:#262E38; border-radius:20px" alt="Star">';
   }
 }
 

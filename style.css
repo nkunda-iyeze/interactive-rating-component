@@ -26,12 +26,16 @@ p{
     width: 412px;
     height: 416px;
     margin: 20px 100px;
-    background-color: #262E38;
+    background-color: #131518;
     border-radius: 20px;
   }
   
   #stars {
     margin-top: 30px;
+  }
+  #stars img{
+    padding: 2px;
+    color: #969FAD;
   }
   
   #buttons {
@@ -39,7 +43,7 @@ p{
   }
   
   #buttons button {
-  background-color:gainsboro;
+  background-color:#262E38;
   border: 1px solid #262E38;
   border-radius: 50%;
   color: #969FAD;
