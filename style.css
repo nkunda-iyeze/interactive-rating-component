@@ -1,12 +1,99 @@
-body {
-    margin:0;
-    background-color: #1a1e24;
-    
-
+body{
+    margin: 0;
+    background-color:black;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    display: flex;
+    justify-content: center;
 }
-.container{
+h2{
+    color: #f1f1f1;
+    text-align: center;
+}
+p{
+    color:#969FAD;
+    font-size: 15px;
+    font-weight: 400;
+    padding:0 32px;
+}
+#rating-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-   
-}
+    margin-top: 50px;
+    width: 412px;
+    height: 416px;
+    margin: 20px 100px;
+    background-color: #262E38;
+    border-radius: 20px;
+  }
+  
+  #stars {
+    margin-top: 30px;
+  }
+  
+  #buttons {
+    display: flex; 
+  }
+  
+  #buttons button {
+  background-color:gainsboro;
+  border: 1px solid #262E38;
+  border-radius: 50%;
+  color: #969FAD;
+  font-size: 16px;
+  padding: 15px;
+  margin: 0 5px;
+  cursor: pointer;
+  }
+  #buttons button:hover{
+  background-color: #fc7614;
+  border-color:#fc7614 ;
+  cursor: pointer;
+  }
+  #submit {
+    width: 70%;
+    height: 40px;
+    margin-top: 30px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: solid #fc7614;
+    color:#f1f1f1 ;
+    background-color:#fc7614;
+  }
+  #submit:hover{
+    background-color: #f1f1f1;
+    border: solid #f1f1f1;
+    color: #fc7614;
+  }
+  
+  #thanks {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #thanks img {
+    height: 100px;
+    margin-bottom: 20px;
+  }
+  
+  #rating-result {
+    width: 55%;
+    height: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-bottom: 10px;
+    border: solid #131518;
+    color:#f1f1f1 ;
+    background-color:#131518;
+    font-weight: bold;
+    text-align: center;
+  }
+  
